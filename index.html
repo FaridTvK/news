@@ -10,6 +10,41 @@
 
 <body>
 
+  <header>
+    <section class="headline">
+      <h1>NEW YORK TIMES</h1>
+      <article>
+      </article>
+    </section>
+    <nav>
+      <div class="search">
+        <label for="search">Search term</label>
+        <input type="text" name="search" id="search" />
+      </div>
+      <div class="language">
+        <label for="language">Language</label>
+        <select name="language" id="language">
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+          <option value="es">Espagnol</option>
+          <option value="fr">Français</option>
+        </select>
+      </div>
+      <p class="date-p"></p>
+      <div class="sort">
+        <label for="sort">Sort</label>
+        <select name="sort" id="sort">
+          <option value="relevancy">Relevancy</option>
+          <option value="popularity">Popularity</option>
+          <option value="publishedAt">Newest first</option>
+        </select>
+        <button type="submit" id="send">Send</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="article-container"></div>
+  </main>
   <script type="module" src="/src/main.ts"></script>
 </body>
 
