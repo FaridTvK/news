@@ -3,48 +3,45 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/vite.svg" type="image/svg+xml">
   <title>NEW YORK TIMES</title>
+  <link rel="stylesheet" href="/src/style.css">
 </head>
 
 <body>
-
   <header>
-    <section class="headline">
-      <h1>NEW YORK TIMES</h1>
-      <article>
-      </article>
-    </section>
+    <h1>NEW YORK TIMES</h1>
     <nav>
       <div class="search">
         <label for="search">Search term</label>
-        <input type="text" name="search" id="search" />
+        <input type="text" id="search" placeholder="Enter keyword" />
       </div>
       <div class="language">
         <label for="language">Language</label>
-        <select name="language" id="language">
+        <select id="language">
           <option value="en">English</option>
           <option value="de">Deutsch</option>
-          <option value="es">Espagnol</option>
+          <option value="es">Español</option>
           <option value="fr">Français</option>
         </select>
       </div>
-      <p class="date-p"></p>
       <div class="sort">
-        <label for="sort">Sort</label>
-        <select name="sort" id="sort">
+        <label for="sort">Sort by</label>
+        <select id="sort">
           <option value="relevancy">Relevancy</option>
           <option value="popularity">Popularity</option>
           <option value="publishedAt">Newest first</option>
         </select>
-        <button type="submit" id="send">Send</button>
       </div>
+      <button id="send">Send</button>
     </nav>
   </header>
+
   <main>
     <div id="article-container"></div>
   </main>
+
   <script type="module" src="/src/main.ts"></script>
 </body>
 
