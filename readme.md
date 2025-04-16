@@ -13,7 +13,6 @@ Diese Web-App zeigt die neuesten Nachrichten von der [News API](https://newsapi.
 
 - **HTML5**
 - **CSS3** (einschließlich Flexbox und Grid für responsives Design)
-- **JavaScript** (ES6+)
-- **TypeScript** (für den Quellcode)
+- **TypeScript** (ES6+)
 - **Fetch API** (um Nachrichten von der News API zu holen)
 - **News API** (https://newsapi.org/)
