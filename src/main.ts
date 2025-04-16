@@ -3,6 +3,10 @@ import { IArticle, INews } from './interfaces/INews'
 const API_KEY = import.meta.env.VITE_KEY_API
 
 
+if (!API_KEY) {
+  alert("API_KEY is missing!");
+}
+
 
 const BASE_URL = "https://newsapi.org"
 
