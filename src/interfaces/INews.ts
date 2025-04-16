@@ -1,4 +1,5 @@
 export interface INews {
+    error: string;
     status: string;
     articles: IArticle[]
 }

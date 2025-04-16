@@ -78,7 +78,8 @@ nav select:focus {
 
 nav button {
   padding: 10px 20px;
-  margin-top: 20px;
+  margin-top: 32.4px;
+  height: max-content;
   border: none;
   border-radius: 4px;
   background-color: var(--primary-color);
@@ -116,7 +117,7 @@ nav button:hover {
   }
   
   nav button {
-    margin-top: 10px;
+    margin-top: 32.4px
   }
 }
 
@@ -171,3 +172,4 @@ main {
   font-weight: bold;
   font-size: 0.9rem;
 }
+
